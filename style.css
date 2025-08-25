@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e7e8ef;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #22222d;
+  color: #898a95;
+  width: 15%;
+  padding: 30px 15px;
+}
+
+main {
+  width: 85%;
+}
+
+a {
+  text-decoration: none;
+  color: #898a95;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo i {
+  font-size: 18px;
+}
+
+.logo h2 {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container-header-input {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  color: #6e6e6e;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container-header-input input {
+  font-size: 18px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.container-content-input {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  color: #6e6e6e;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  width: 33%;
+  padding: 25px;
+  border-left: 5px solid black;
+  border-radius: 8px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.content-card {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.content-card p {
+  text-transform: uppercase;
+  color: #6e6e6e;
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.number-card {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6e6e6e;
+}
+
+.card i {
+  font-size: 20px;
+}
+
+#card-1 {
+  border-left: 5px solid #3925ea;
+}
+
+#card-1 i {
+  color: #3925ea;
+}
+
+#card-2 {
+  border-left: 5px solid #ead325;
+}
+
+#card-2 i {
+  color: #ead325;
+}
+
+#card-3 {
+  border-left: 5px solid #0d6a24;
+}
+
+#card-3 i {
+  color: #0d6a24;
+}
+
+#card-4 {
+  border-left: 5px solid #ad1010;
+}
+
+#card-4 i {
+  color: #ad1010;
+}
+
+.container-body {
+  padding: 40px 20px;
+}
+
+.content-grafico {
+  background-color: white;
+  width: 50%;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container-graficos {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.content-grafico h3 {
+  text-align: center;
+  color: #6e6e6e;
+}

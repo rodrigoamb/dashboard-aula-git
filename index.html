@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-clipboard-check"></i>
+        <h2>Bob`s Inventory</h2>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="">
+              <i class="fa-solid fa-chart-column"></i>
+              Dashboard
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa-solid fa-box-archive"></i>
+              Products
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa-solid fa-list-check"></i>
+              Inventory
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa-solid fa-cart-plus"></i>
+              Purchase Orders
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Sales Orders
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa-solid fa-chart-simple"></i>
+              Reports
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa-solid fa-gear"></i>
+              Settings
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-header-input">
+        <div class="container-content-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" name="busca" id="busca" />
+        </div>
+
+        <div class="container-content-icons">
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+
+      <div class="container-body">
+        <h1>dashboard</h1>
+
+        <div class="container-cards">
+          <div class="card" id="card-1">
+            <div class="content-card">
+              <p>products</p>
+              <i class="fa-solid fa-box-archive"></i>
+            </div>
+
+            <p class="number-card">249</p>
+          </div>
+
+          <div class="card" id="card-2">
+            <div class="content-card">
+              <p>purchase orders</p>
+              <i class="fa-solid fa-cart-plus"></i>
+            </div>
+
+            <p class="number-card">83</p>
+          </div>
+
+          <div class="card" id="card-3">
+            <div class="content-card">
+              <p>sales orders</p>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+            <p class="number-card">79</p>
+          </div>
+
+          <div class="card" id="card-4">
+            <div class="content-card">
+              <p>inventory alerts</p>
+              <i class="fa-solid fa-bell"></i>
+            </div>
+
+            <p class="number-card">56</p>
+          </div>
+        </div>
+
+        <div class="container-graficos">
+          <div class="content-grafico">
+            <h3>Top 5 Products</h3>
+            <img src="assets/grafico1.png" alt="grafico1" />
+          </div>
+
+          <div class="content-grafico">
+            <h3>Purchase and Sales Orders</h3>
+            <img src="assets/grafico2.png" alt="grafico2" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
